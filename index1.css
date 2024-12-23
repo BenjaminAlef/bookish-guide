@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #1E3A5F;
+    color: #F0F8FF;
+}
+
+h1 {
+    color: #0D1B2A;
+    margin-bottom: 20px;
+}
+
+div {
+    margin: 10px 0;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+    background-color: #27496D; 
+    color: #EAF2F8; 
+    border: 1px solid #0D1B2A; 
+}
+
+table th, table td {
+    border: 1px solid #0D1B2A;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0D1B2A; 
+    color: #EAF2F8;
+}
+
+form {
+    background-color: #12263A; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #F0F8FF;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+input, select {
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #0D1B2A;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #27496D;
+    color: #EAF2F8;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0D1B2A;
+}
+
+body > * {
+    text-align: center;
+}
